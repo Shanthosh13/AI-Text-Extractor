@@ -25,7 +25,7 @@ const features = [
 const pipeline = [
   { label: "Upload PDF", desc: "Select a PDF file from your device" },
   { label: "Text Extraction", desc: "PyMuPDF extracts raw text from the document" },
-  { label: "AI Processing", desc: "LLaMA 3 reads the text and crafts 10 MCQs" },
+  { label: "AI Processing", desc: "Mistral reads the text and crafts 10 MCQs" },
   { label: "Answer & Review", desc: "Pick answers and see your score instantly" },
 ];
 
